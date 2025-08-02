@@ -1,9 +1,14 @@
+'use client'
 import React from 'react'
-
-const page = () => {
+import Navbar from '../components/navbar/Navbar'
+import HeroPage from '@/components/langingPage/HeroPage'
+import CardCarosal from '@/components/HomeCard/CardCarosal'
+function page() {
   return (
     <div>
-      <h1 >hello</h1>
+      <Navbar/>
+      <HeroPage/>
+      <CardCarosal/>
     </div>
   )
 }
