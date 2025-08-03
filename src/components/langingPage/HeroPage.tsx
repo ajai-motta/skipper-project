@@ -5,6 +5,7 @@ import { Globe } from 'lucide-react'
 
 const HeroPage = () => {
   return (
+    <>
     <div className='flex flex-col items-center gap-4 py-16'>
         <img className='h-10 mb-10' src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=806890&theme=light&t=1737565356562" alt="" />
         <h3 className='text-4xl text-black/80 leading-0 font-bold'>Components crafted for</h3>
@@ -17,6 +18,9 @@ const HeroPage = () => {
 
 </p>
     </div>
+    <img  className="absolute left-30 top-80 w-[100px]" src="https://skiper-ui.com/bg/bg_1.svg" alt="" />
+    <img  className="absolute right-30 top-80 w-[100px]" src="https://skiper-ui.com/bg/bg_2.svg" alt="" />
+    </>
   )
 }
 
