@@ -1,9 +1,9 @@
-import React from "react"
+import React, { Children } from "react"
 import { IceCreamCone } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 
-const BadgeButton = () => {
+const BadgeButton = ({children}) => {
   return (
     <Badge
       variant="outline"
@@ -11,7 +11,7 @@ const BadgeButton = () => {
     >
       
       <IceCreamCone className=" mr-2  fill-[#EEBDE0] stroke-1 text-neutral-800" />{" "}
-      Templates
+      {children}
     </Badge>
   )
 }

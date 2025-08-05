@@ -37,7 +37,7 @@ const MyMinimal = () => {
 
     <div className="w-full  px-4 bg-[#f4f4f4] shadow-2xl rounded-2xl">
       <div>
-        <BadgeButton />
+        <BadgeButton >Templates</BadgeButton>
       </div>
         
       <div className='flex flex-wrap justify-between items-center '>
