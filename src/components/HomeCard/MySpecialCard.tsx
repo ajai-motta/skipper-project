@@ -12,8 +12,8 @@ import { cn } from '@/lib/utils'
 
 const MySpecialCard = () => {
   return (
-    <div>
-        <div className='w-[35%] mx-auto my-20 rounded-2xl border shadow-2xl border-gray-300 p-4'>
+    <div className='my-20'>
+        <div className='w-[50%] mx-auto my-20 rounded-2xl border shadow-2xl border-gray-300 p-4'>
 
         <BadgeButton>Components</BadgeButton>
         <h2 className='text-black/80 font-bold text-5xl text-center '>Tailwind + Framer + React</h2>

@@ -5,6 +5,7 @@ import HeroPage from '@/components/langingPage/HeroPage'
 import CardCarosal from '@/components/HomeCard/CardCarosal'
 import MyMinimal from '@/components/HomeCard/MyMinimal'
 import MySpecialCard from '@/components/HomeCard/MySpecialCard'
+import AiCard from '@/components/HomeCard/AiCard'
 
 function page() {
   return (
@@ -14,6 +15,7 @@ function page() {
       <CardCarosal/>
      <MyMinimal/>
      <MySpecialCard/>
+     <AiCard/>
       
 
     </div>
