@@ -6,6 +6,7 @@ import CardCarosal from '@/components/HomeCard/CardCarosal'
 import MyMinimal from '@/components/HomeCard/MyMinimal'
 import MySpecialCard from '@/components/HomeCard/MySpecialCard'
 import AiCard from '@/components/HomeCard/AiCard'
+import Themchange from '@/components/langingPage/Themchange'
 
 function page() {
   return (
@@ -16,6 +17,7 @@ function page() {
      <MyMinimal/>
      <MySpecialCard/>
      <AiCard/>
+     <Themchange/>
       
 
     </div>
